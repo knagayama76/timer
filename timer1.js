@@ -14,6 +14,6 @@ for (const time of args) {
   }
 
   setTimeout(() => {
-    process.stdout.write(".");
+    process.stdout.write("\x07");
   }, time * 1000);
 }
